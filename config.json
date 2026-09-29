@@ -1,0 +1,23 @@
+{
+  "input_dir": "../data",
+  "sample_rate": 16000,
+  "channels": 1,
+  "overwrite": true,
+  "output_prefix": "converted+",
+  "supported_extensions": [
+    ".aac",
+    ".mp3",
+    ".mp4",
+    ".m4a"
+  ],
+  "excluded_folders": [
+    "src",
+    ".git",
+    ".venv",
+    "venv",
+    "__pycache__",
+    ".agents",
+    ".gemini",
+    "converter"
+  ]
+}
